@@ -1,7 +1,7 @@
 package dump
 
 type Dump struct {
-	UUID      string `json:"uuid"`
+	ID        string `json:"id"`
 	URL       string `json:"url"`
 	CreatedAt uint   `json:"createdAt"`
 }

@@ -12,11 +12,11 @@ func (ds *service) CreateDump(CreateDumpDto *CreateDto) *Dump {
 	return nil
 }
 
-func (ds *service) DeleteDump(uuid string) error {
+func (ds *service) DeleteDump(id string) error {
 	return nil
 }
 
-func (ds *service) GetDumpById(uuid string) *Dump {
+func (ds *service) GetDumpById(id string) *Dump {
 	return nil
 }
 
